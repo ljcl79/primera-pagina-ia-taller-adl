@@ -1,7 +1,10 @@
 /* styles.css */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -20,6 +23,17 @@ body {
   font-size: 48px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-texto {
+  display: flex;
+  justify-content: center;
+}
+
+.texto-principal {
+  margin-top: 2rem;
+  max-width: 800px;
+  text-align: justify;
 }
 
 .contenedor-principal {
