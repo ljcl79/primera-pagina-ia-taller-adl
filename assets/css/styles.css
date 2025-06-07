@@ -90,7 +90,7 @@ body {
   margin-top: 5px;
 }
 
-.contactenos form input[type="submit"] {
+.contactenos form button[type="submit"] {
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -115,7 +115,8 @@ footer p {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333; /* Color de fondo de la barra */
+  background-color: #333;
+  /* Color de fondo de la barra */
   height: 50px;
   display: flex;
   align-items: center;
@@ -124,18 +125,21 @@ footer p {
 
 .barra-navegacion li {
   display: inline-block;
-  margin-right: 20px; /* Espacio entre elementos de la lista */
+  margin-right: 20px;
+  /* Espacio entre elementos de la lista */
 }
 
 .barra-navegacion li a {
   text-decoration: none;
-  color: #fff; /* Color del texto de los enlaces */
+  color: #fff;
+  /* Color del texto de los enlaces */
   font-weight: bold;
   padding: 5px;
 }
 
 .barra-navegacion li a:hover {
-  color: #ff9900; /* Color del texto al pasar el cursor sobre los enlaces */
+  color: #ff9900;
+  /* Color del texto al pasar el cursor sobre los enlaces */
   background-color: white;
   padding: 5px;
 }
