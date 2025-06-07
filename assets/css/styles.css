@@ -83,7 +83,8 @@ body {
 }
 
 .contactenos form input,
-.contactenos form textarea {
+.contactenos form textarea,
+.contactenos form select {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
